@@ -2,11 +2,12 @@ package com.example.keycat.domain;
 
 import com.example.keycat.domain.item.Item;
 import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @Entity
-@Getter
+@Getter @Setter
 public class OrderItem {
 
     @Id
